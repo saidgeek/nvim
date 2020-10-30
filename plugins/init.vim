@@ -11,6 +11,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	"
 	Plug 'sheerun/vim-polyglot'
 	Plug 'jiangmiao/auto-pairs'
+  Plug 'alvan/vim-closetag'
 
   " Theme
   "
@@ -21,8 +22,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " IDE
 	"
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
+  Plug 'christoomey/vim-tmux-navigator'
+  Plug 'w0rp/ale'
+  Plug 'prettier/vim-prettier'
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+  " Git
+  "
+  Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
