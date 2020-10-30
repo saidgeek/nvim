@@ -161,3 +161,13 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 nmap <space>e :CocCommand explorer<CR>
 " nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+let g:coc_global_extensions = [
+  \ 'coc-explorer',
+  \ 'coc-tsserver',
+  \ 'coc-json',
+  \ 'coc-css',
+  \ 'coc-html',
+  \ 'coc-vimlsp',
+  \ 'coc-jest'
+  \ ]

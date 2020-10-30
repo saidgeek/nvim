@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'w0rp/ale'
   Plug 'prettier/vim-prettier'
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+  Plug 'mhinz/vim-startify'
 
   " Git
   "

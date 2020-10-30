@@ -4,9 +4,8 @@ nnoremap <SPACE> <Nop>
 let mapleader = "\<Space>"
 
 nnoremap <C-w> :w<CR>
-nnoremap <C-W> :wq<CR>
 nnoremap <C-q> :q<CR>
-nnoremap <C-Q> :q!<CR>
+nnoremap <S-q> :q!<CR>
 nnoremap <C-c> <Esc>
 
 " Fast quit
@@ -21,5 +20,5 @@ vnoremap <S-TAB> < <gv
 
 " Navigation into buffers
 "
-" nnoremap <leader><TAB> :bnext<CR>
-" nnoremap <C-S-tab> :bprevious<CR>
+nnoremap <S-h> :bnext<CR>
+nnoremap <S-l> :bprev<CR>
