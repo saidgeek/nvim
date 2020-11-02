@@ -169,5 +169,8 @@ let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-html',
   \ 'coc-vimlsp',
-  \ 'coc-jest'
+  \ 'coc-jest',
+  \ 'coc-marketplace',
+  \ 'coc-styled-components',
+  \ 'coc-emmet'
   \ ]

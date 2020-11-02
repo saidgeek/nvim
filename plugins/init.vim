@@ -12,6 +12,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'sheerun/vim-polyglot'
 	Plug 'jiangmiao/auto-pairs'
   Plug 'alvan/vim-closetag'
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'ianks/vim-tsx'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
   " Theme
   "
