@@ -33,6 +33,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'mhinz/vim-startify'
 
+  " FZF
+  "
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
+  Plug 'airblade/vim-rooter'
+
   " Git
   "
   Plug 'tpope/vim-fugitive'
