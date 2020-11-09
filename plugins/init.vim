@@ -32,7 +32,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'prettier/vim-prettier'
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'mhinz/vim-startify'
-
+  Plug 'matze/vim-move'
   " FZF
   "
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
