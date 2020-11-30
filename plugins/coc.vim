@@ -172,5 +172,6 @@ let g:coc_global_extensions = [
   \ 'coc-jest',
   \ 'coc-marketplace',
   \ 'coc-styled-components',
-  \ 'coc-emmet'
+  \ 'coc-emmet',
+  \ 'coc-python'
   \ ]

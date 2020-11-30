@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'ianks/vim-tsx'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+  Plug 'tpope/vim-commentary'
 
   " Theme
   "
@@ -33,11 +34,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'mhinz/vim-startify'
   Plug 'matze/vim-move'
+  Plug 'godlygeek/tabular', {'for': 'markdown'}
+  Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
+
   " FZF
   "
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'airblade/vim-rooter'
+
+  " EasyMotion
+  "
+  Plug 'easymotion/vim-easymotion'
 
   " Git
   "
