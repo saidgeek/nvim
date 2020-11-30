@@ -20,8 +20,8 @@ vnoremap <S-TAB> < <gv
 
 " Navigation into buffers
 "
-nnoremap <S-h> :bnext<CR>
-nnoremap <S-l> :bprev<CR>
+nnoremap <S-l> :bnext<CR>
+nnoremap <S-h> :bprev<CR>
 nnoremap <S-c> :bd<CR>
 
 
