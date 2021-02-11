@@ -3,7 +3,7 @@
 ## List of pendings plugins
 
 - [ ] [barbar.nvim](https://github.com/romgrk/barbar.nvim)
-- [ ] ? [coc-fzf](https://github.com/antoinemadec/coc-fzf)
+- [x] ? [coc-fzf](https://github.com/antoinemadec/coc-fzf)
 - [ ] [which-key](https://www.chrisatmachine.com/Neovim/15-which-key/)
 - [ ] [sneak](https://www.chrisatmachine.com/Neovim/13-sneak/)
 - [ ] [snippets](https://www.chrisatmachine.com/Neovim/17-snippets/)

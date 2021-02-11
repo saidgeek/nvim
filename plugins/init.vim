@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ianks/vim-tsx'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'tpope/vim-commentary'
+  Plug 'rust-lang/rust.vim'
 
   " Theme
   "
