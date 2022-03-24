@@ -1,4 +1,5 @@
 {
+  "eslint.autoFixOnSave": true,
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact",
 		"typescript": "typescriptreact"
