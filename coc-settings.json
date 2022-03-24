@@ -1,23 +1,6 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["python"],
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-  // explorer
-  "explorer.width": 30,
-  "explorer.quitOnOpen": true,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
-  "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-  },
-  "explorer.buffer.root.template": "[icon & 1] OPEN EDITORS",
-  "explorer.file.root.template": "[icon & 1] [root]",
-
-  // python configuration
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black",
-  "python.condaPath": "conda"
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	}
 }
