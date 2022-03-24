@@ -8,7 +8,8 @@ vim.g.coc_global_extensions = {
 	"coc-jest",
 	"coc-json",
 	"coc-pairs",
-	"coc-lua"
+	"coc-lua",
+  "coc-explorer",
 }
 
 vim.api.nvim_set_keymap("n", "<leader>.", "<Plug>(coc-codeaction)", {})
