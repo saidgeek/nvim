@@ -1,6 +1,14 @@
 ---@diagnostic disable: undefined-global
 
 require('telescope').setup {
+  defaults = {
+    file_ignore_patterns = {
+      "node_modules",
+      "coverage",
+      "dist",
+      "build",
+    },
+  },
 	pickers = {
 		find_files = {
 			theme ="ivy"
