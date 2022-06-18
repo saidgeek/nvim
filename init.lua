@@ -5,9 +5,10 @@ require 'colors'
 require 'coc-config'
 require 'telescope-config'
 require('lualine').setup()
+require('neogit-config')
 
 require('nvim-treesitter.configs').setup {
-	ensure_installed = "maintained",
+	ensure_installed = "all",
 	highlight = {
 		enable = true,
 		disable = { "lua" }
@@ -28,6 +29,7 @@ return require('packer').startup(function()
 	use 'JoosepAlviste/nvim-ts-context-commentstring'
 	use 'tpope/vim-commentary'
 	use {'neoclide/coc.nvim', branch = 'release'}
+  use {'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim'}
 
 	-- themes
 	use 'folke/tokyonight.nvim'
@@ -39,4 +41,5 @@ return require('packer').startup(function()
     		'nvim-telescope/telescope.nvim',
     		requires = { {'nvim-lua/plenary.nvim'} }
   	}
+  use { 'github/copilot.vim' }
 end)
