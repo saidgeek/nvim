@@ -7,6 +7,8 @@ require('telescope').setup {
       "coverage",
       "dist",
       "build",
+      "package-lock.json",
+      "yarn-error.log",
     },
   },
 	pickers = {
