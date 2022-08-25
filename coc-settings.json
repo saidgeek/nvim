@@ -1,11 +1,11 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["python"],
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
+  "eslint.autoFixOnSave": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 50,
   "explorer.quitOnOpen": true,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
@@ -15,9 +15,5 @@
   },
   "explorer.buffer.root.template": "[icon & 1] OPEN EDITORS",
   "explorer.file.root.template": "[icon & 1] [root]",
-
-  // python configuration
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black",
-  "python.condaPath": "conda"
+  "svelte.enable-ts-plugin": true
 }
